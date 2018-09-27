@@ -1,0 +1,27 @@
+body {
+	background: rgba(0, 0, 0, 1);
+	display: flex;
+	justify-content: center;
+}
+.arcade-character {
+	position:relative;
+
+}
+.led {
+	background: rgba(255, 255, 0, 0);
+	display: block;
+	width: 20px;
+	height: 20px;
+	box-sizing: border-box;
+	border: 1px solid rgba(0, 0, 0, 0);
+	position:absolute;
+	top:0;
+	left:0;
+}
+.led--on {
+	background: rgba(255, 255, 255, 1);
+}
+
+.led--off {
+	background: rgba(255, 255, 0, 0);
+}
